@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.7",
+	"VersionName": "2.0",
 	"FriendlyName": "POItools_Beta",
 	"Description": "POI工具插件Beta(5.5版本)",
 	"Category": "Other",
@@ -13,5 +13,12 @@
 	"EngineVersion": "5.5.0",
 	"CanContainContent": true,
 	"IsBetaVersion": true,
-	"Installed": true
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "POItools_Beta",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
